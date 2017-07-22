@@ -141,7 +141,7 @@ main {
 	box-shadow: 0 6px 6px -6px black;
    font-family: 'Josefin Sans', sans-serif;
    font-weight: bold;
-   font-size: 70%;
+   font-size: 1vw;
    text-transform: uppercase;
 }
 
@@ -159,19 +159,17 @@ main {
 .entry-title {
    font-family: 'Josefin Sans', sans-serif;
    align-self: flex-start;
-   font-size: 2vw;
+   font-size: 2.25vw;
    width: 100vw;
 }
 
 .blog-img {
-   width: 150px;
-   height: 150px;
-   clear: right;
-   border: solid black 1px;
+   width: 15vw;
+   height: 15vw;
+   float: right;
    background-position: center;
    background-size: cover;
-   /*margin: 0 0 6px 6px;*/
-   /*align-self: flex-end;*/
+   margin: 0 0 6px 6px;
 }
 
 #dino {
@@ -187,8 +185,10 @@ main {
 }
 
 .primary-txt {
-   align-items: flex-start;
-   border: solid black 1px;
+   font-family: 'Noto Serif', serif;
+   font-size: 1.25vw;
+   line-height: 2;
+   color: #34322F;
 }
 
 aside {
