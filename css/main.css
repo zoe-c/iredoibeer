@@ -222,6 +222,8 @@ aside {
 
 footer {
    width: 100vw;
+   min-width: 750px;
+   max-width: 1280px;
    padding: 1em;
    text-align: center;
    text-transform: uppercase;
