@@ -105,8 +105,6 @@ main {
    padding: 3em 3em 3em 6em;
    display: flex;
    flex-direction: column;
-
-   /*border: solid black 1px;*/
 }
 
 .item {
@@ -114,6 +112,7 @@ main {
    margin: 1em;
    padding: 1em;
    padding-top: 1.75em;
+   box-shadow: 0 2px 3px 0 #515052;
 }
 
 .icon-wrapper {
@@ -158,7 +157,6 @@ main {
 
 .entry-title {
    font-family: 'Josefin Sans', sans-serif;
-   align-self: flex-start;
    font-size: 2.25vw;
    width: 100vw;
 }
@@ -193,7 +191,33 @@ main {
 
 aside {
    width: 40%;
+   max-height: max-content;
+   margin: 2em 3em;
+   padding: 2em;
    background-color: #ECE5D6;
-   border: solid black 1px;
+   box-shadow: 0 2px 3px 0 #716F73;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #34322F;
+}
 
+.auth-pic {
+   width: 15vw;
+   height: 15vw;
+   border-radius: 150px;
+   background-image: url('../img/author.jpeg');
+   background-position: center;
+   background-size: cover;
+   margin-bottom: 2em;
+}
+
+.aside-heading {
+   width: 90%;
+   font-size: 2vw;
+   font-family: 'Josefin Sans', sans-serif;
+   border-bottom: 2px solid black;
+   text-align: center;
+   margin-bottom: 2em;
+   padding-bottom: 1em;
 }
