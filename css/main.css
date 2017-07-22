@@ -10,10 +10,6 @@
    vertical-align: baseline;
 }
 
-/*html {
-   width: 100vw;
-}*/
-
 body {
    min-width: 750px;
    max-width: 1280px;
@@ -35,7 +31,6 @@ body {
    list-style-type: none;
    font-family: 'Josefin Sans', sans-serif;
    background-color: #34322F;
-   /*border: solid black 1px;*/
 }
 
 .nav-item {
@@ -52,7 +47,9 @@ a {
    color: white;
 }
 
-
+#facebook {
+   zoom: 200%;
+}
 
 .page-header {
    width: inherit;
@@ -76,6 +73,7 @@ a {
    line-height: .6;
    position: relative;
 }
+
 .main-heading {
    font-family: 'Josefin Sans', sans-serif;
    font-size: 12vw;
@@ -220,4 +218,16 @@ aside {
    text-align: center;
    margin-bottom: 2em;
    padding-bottom: 1em;
+}
+
+footer {
+   width: 100vw;
+   padding: 1em;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 1vw;
+   font-family: 'Noto Serif', serif;
+   background-color: #34322F;
+   color: white;
+
 }
